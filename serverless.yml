@@ -24,6 +24,10 @@ functions:
           path: /api/persona/buscar/{idPersona}
           method: get
           cors: true
+      - http:
+          path: /api/persona/agregar
+          method: post
+          cors: true
 
 plugins:
   - serverless-offline
