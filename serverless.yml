@@ -2,7 +2,7 @@ service: serverless-application-offline
 
 custom:
   serverless-offline:
-    port: 5001
+    httpPort : 5001
 
 provider:
   name: aws
