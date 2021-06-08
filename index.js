@@ -16,8 +16,3 @@ app.use(cors());
 app.use('/api', require('./source/routes/persona.route'));
 
 module.exports.handler = serverless(app);
-
-//const server = http.createServer(app).listen(port, function (){
-//    console.log('Servidor Prueba');
-//    console.log('Servidor puerto ' + port);
-//});
