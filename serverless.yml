@@ -1,4 +1,5 @@
 service: serverless-application-offline
+
 custom:
   serverless-offline:
     httpPort : 5001
